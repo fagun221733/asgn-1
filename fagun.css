@@ -113,3 +113,177 @@ body{
   .banner-profile-pic{
       width: 580px;
   }
+
+   /* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section {
+    
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-weight: 600;
+}
+.donate-input{
+    align-items: center;
+    width: 750px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.about-items{
+    align-items: center;
+}
+
+.about-item{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background: #2e7d5c;
+}
+.item-title{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+ /* .item-title1{ 
+    
+}*/
+
+
+.about-item:hover {
+    background-color:#C6E4D6;
+}
+
+.subscribe{
+    border-radius: 10px;
+    padding: 80px 100px;
+    text-align: center;
+    margin-top: 130px;
+    background-color: #C6E4D6;
+}
+
+/* skill */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skills-container > :first-child {
+    background-color: #d5e1f5;
+  }
+  .skills-container > :nth-child(2) {
+    background-color: #f7ebcf;
+}
+.skills-container > :nth-child(3) {
+    background-color: #c6e4d6;
+}
+
+.skills-container > :first-child button {
+    background-color: #5490f5;
+      font-weight: bold;
+      font-size: 20px;
+      color: aliceblue;
+      padding: 18px 35px;
+      border-radius: 5px;
+      border: none;
+      margin-top: 20px;
+}
+
+.skills-container > :nth-child(2) button{
+    background-color: #ffc239;
+      font-weight: bold;
+      font-size: 20px;
+      color: aliceblue;
+      padding: 18px 35px;
+      border-radius: 5px;
+      border: none;
+      margin-top: 20px;
+}
+.skills-container > :nth-child(3) button{
+    background-color: #09a15c;
+      font-weight: bold;
+      font-size: 20px;
+      color: aliceblue;
+      padding: 18px 35px;
+      border-radius: 5px;
+      border: none;
+      margin-top: 20px;
+}
+.section-description{
+    padding-bottom: 20px;
+}
+
+.news-container{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.sateliteImg{
+    border-radius: 15px;
+}
+
+.news-container-two{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 10px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.advisor{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 30px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top 20px left 30px;
+}
+
+/* footer */
+
+.ftr{
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+ /* .ftr-icons{ 
+   display: flex;
+   align-items: ;
+   margin-top: 80px;
+}*/
+
+.img-icon{
+margin-right: 10px;
+}
