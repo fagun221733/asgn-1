@@ -287,3 +287,28 @@ main section {
 .img-icon{
 margin-right: 10px;
 }
+
+
+/* nws latr */
+
+.newsletter-form input {
+    width: 70%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .newsletter-form button {
+    background-color: #2e7d5c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #256e4e;
+  }
